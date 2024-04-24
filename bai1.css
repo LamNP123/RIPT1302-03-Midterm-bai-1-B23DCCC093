@@ -1,0 +1,20 @@
+#result{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+}
+#tong:hover {
+    background-color: rgba(27, 24, 194, 0.267);
+}
+#tich:hover {
+    background-color: rgba(27, 24, 194, 0.267);
+}
+#thuong:hover {
+    background-color: rgba(27, 24, 194, 0.267);
+}
+#hieu:hover {
+    background-color: rgba(27, 24, 194, 0.267);
+}
+#reset:hover {
+    background-color: rgba(27, 24, 194, 0.267);
+}

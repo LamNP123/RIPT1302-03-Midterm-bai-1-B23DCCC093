@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+    <input type="text" id="A" placeholder="nhap A" onblur="checkinput()">
+    <input type="text" id="B" placeholder="nhap B" oninput="checkinput()"><br><br>
+    <div class="buttons">
+        <button id="tong" onclick="calculatesum()" style="border-radius: 30px;">SUM</button><br><br>
+        <button id="hieu" onclick="calculatesubtract()" style="border-radius: 30px;">SUBTRACT</button><br><br>
+        <button id="tich" onclick="calculatemultiply()" style="border-radius: 30px;">MULTIPLY</button><br><br>
+        <button id="thuong" onclick="calculatedivide()" style="border-radius: 30px;">DiVIDE</button><br><br>
+        <button id="reset" onclick="resetinput()" style="border-radius: 30px;">RESET</button>
+    </div>
+    <p id="result"></p>
+</body>
+<script src="bai1.js" ></script>
+</html>
